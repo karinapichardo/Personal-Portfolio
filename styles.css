@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+#navbar {
+    background-color: #bf3144;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+    height: 60px;
+    display: flex;
+    z-index: 10;
+    border-bottom: 1px solid #000;
+}
+
+ul .main-nav {
+    display: inline-block;
+    color: white;
+    padding: 2px 16px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#welcome-section {
+    background-color: #000;
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+h1 {
+    display: block;
+    font-size: 4rem;
+    color: white;
+}
+
+#welcome-section > p {
+    font-size: 3rem;
+    margin-top: 5px;
+    font-size: 2rem;
+    font-weight: 200;
+    font-style: italic;
+    color: #bf3144;
+}
+
+#projects {
+    background-color: #45567d;
+    padding: 5rem;
+}
+
+#projects > h2 {
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    border-bottom: 2px solid white;
+    max-width: 500px;
+    text-align: center;
+    margin: 0 auto 6rem auto;
+    margin-bottom: 45px;
+}
+
+.project-grid {
+    justify-items: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    grid-gap: 2rem;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+}
+
+.project-images {
+    align-content: center;
+    margin: 3px;
+    object-fit: cover;
+    width: 350px;
+    height: 300px;
+}
+
+.project-title {
+    text-align: center;
+    background-color: #3a3d40;
+    margin: -7px 3px auto 3px;
+    padding: 20px;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 80vh;
+    padding: 0 2rem;
+    background-color: #3a3d40;
+}
+
+.contact-items {
+    display: inline-block;
+    margin-top: 35px;
+    margin-left: 50px;
+    padding: 1rem;
+    font-weight: 300;
+    font-size: 25px;
+}
+
+h2 {
+    margin-bottom: 200px;
+    font-weight: 400;
+    font-size: 50px;
+    color: white;
+}
+
+#contact > p {
+    margin-top: -190px;
+    font-size: 18px;
+    font-style: italic;
+    color: white;
+    font-weight: 100;
+}
+
+footer {
+    background-color: #3a3d40;
+    width: 100%;
+    height: 12vh;
+    border-top: 4px solid #bf3144;
+    color: white;
+    display: flex;
+    font-weight: 300;
+    font-size: 16px;
+    padding: 2rem;
+    justify-content: space-evenly;
+}
