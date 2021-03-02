@@ -135,7 +135,7 @@ h1 {
     color: #ff7f50;
 }
 
-button {
+#button {
     width: 130px;
     height: 50px;
     font-size: 1.2rem;
@@ -149,9 +149,11 @@ button {
     display: block;
     margin: 0 auto;
     margin-top: -30px;
+    text-align: center;
+    padding: 12px;
 }
 
-button:hover {
+#button:hover {
     background-color: #bf3144;
     transition: background-color 0.3s ease-in-out;
 }
@@ -231,7 +233,7 @@ footer > p {
     .nav-list a,
     #contact > p,
     .project-title,
-    button {
+    #button {
         font-size: 30px;
     }
 
@@ -240,7 +242,7 @@ footer > p {
         height: 550px;
     }
 
-    button {
+    #button {
         width: 200px;
         height: 80px;
     }
